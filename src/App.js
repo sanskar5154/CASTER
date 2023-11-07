@@ -31,6 +31,7 @@ function App() {
     <>
       <Navbar title="CASTER" mode={mode} toggleMode={toggleMode} />
       <Alerts alert={alert} />
+      <h1>hello</h1>
       <div className="container my-3">
         <TextForm
           showAlert={showAlert}
